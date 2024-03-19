@@ -1,0 +1,46 @@
+.button-container{
+    display: flex;
+    position: relative;
+    justify-content: center;
+    z-index: 2;
+}
+.boton-juego{
+    bottom: -35px;
+    position: absolute;
+    
+}
+
+button{
+    width: 300px;
+    height: 80px;
+    background-color: black;
+    border: 1px solid blueviolet;
+    box-shadow: 5px 5px 7px blueviolet;
+    color: white;
+    border-radius: 20px;
+    transition: transform 0.5s ease; /* Transición de tamaño */
+    animation: scaleAnimation 3s infinite alternate; /* Animación de tamaño infinita */
+    font-size: 30px;
+}
+
+@keyframes scaleAnimation {
+    0% {
+      transform: scale(1); /* Tamaño original */
+    }
+    20% {
+        transform: scale(1); /* Tamaño original */
+      }
+    40% {
+        transform: scale(1.1); /* Tamaño original */
+      }
+    60% {
+        transform: scale(1); /* Tamaño original */
+      }
+    80% {
+        transform: scale(1); /* Tamaño original */
+      }
+
+    100% {
+        transform: scale(1.1); /* Tamaño original */
+      }  
+}

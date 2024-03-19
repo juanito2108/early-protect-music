@@ -1,0 +1,117 @@
+.artista-text{
+display: flex;
+padding-top: 300px;
+margin-left: 30px;
+color: white;
+justify-content: space-between;
+margin: 0 300px;
+    
+}
+.artista-container img{
+    width: 100%;
+    height: 50vh;
+    object-fit: cover;
+    border-radius: 20px 20px 200px 20px;
+    box-shadow: 0px 0px 50px 0px blueviolet;
+}
+.article-container{
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 500px;
+    height: 350px;
+    align-items: center;
+    
+    
+}
+.artist-tittle{
+    box-shadow: 0px 0px 50px 0px blueviolet;
+    width: 300px;
+    height: 50px;
+    border-radius: 20px;
+    padding-top: 12px;
+    text-align: center;
+    cursor: pointer;
+    
+}
+.artist-tittle:hover{
+    background-color: rgba(0, 0, 255, 0.192);
+}
+.artist-texto{
+    width: 600px;
+    height: 200px;
+    box-shadow: 0px 0px 50px 0px blueviolet;
+    font-size: 20px;
+    border-radius: 20px;
+}
+.artist-texto p,.artist-texto-billie p,.artist-texto-weeknd p{
+    margin: 30px;
+}
+.artista-text-billie{
+    display: flex;
+    padding-top: 300px;
+    margin-left: 30px;
+    color: white;
+    justify-content: space-between;
+    margin: 0 300px;
+        
+    }
+.artista-container-billie{
+    width: 450px;
+}
+.artista-container-billie img{
+    width: 100%;
+    height: 50vh;
+    object-fit: cover;
+    border-radius: 20px 20px 20px 200px;
+    box-shadow: 0px 0px 50px 0px red;
+}
+.artist-tittle-billie{
+    box-shadow: 0px 0px 50px 0px red;
+    width: 300px;
+    height: 50px;
+    border-radius: 20px;
+    padding-top: 12px;
+    text-align: center;
+    cursor: pointer;
+    
+}
+.artist-tittle-billie:hover{
+    background-color: rgba(137, 43, 226, 0.226);
+}
+.artist-texto-billie{
+    width: 600px;
+    height: 200px;
+    box-shadow: 0px 0px 50px 0px red;
+    font-size: 20px;
+    border-radius: 20px;
+}
+.artist-tittle-weeknd{
+    box-shadow: 0px 0px 50px 0px blue;
+    width: 300px;
+    height: 50px;
+    border-radius: 20px;
+    padding-top: 12px;
+    text-align: center;
+    cursor: pointer;
+    
+}
+.artist-tittle-weeknd:hover{
+    background-color: rgba(255, 0, 0, 0.185);
+}
+.artist-texto-weeknd{
+    width: 600px;
+    height: 200px;
+    box-shadow: 0px 0px 50px 0px blue;
+    font-size: 20px;
+    border-radius: 20px;
+}
+.artista-container-weeknd img{
+    width: 100%;
+    height: 50vh;
+    object-fit: cover;
+    border-radius: 20px 20px 200px 20px;
+    box-shadow: 0px 0px 50px 0px blue;
+}
+
